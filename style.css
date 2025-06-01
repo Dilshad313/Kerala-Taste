@@ -129,7 +129,6 @@ body{
 
 .row #grid{
     border: 1px solid rgb(215, 213, 213);
-
 }
 
 .row #grid h4{
@@ -155,7 +154,7 @@ body{
     transition: all 0.7s ease-in-out;
 }
 
-.featured{
+.featured .side-content{
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -167,13 +166,14 @@ body{
     font-size: 25px;
 }
 
-.featured p{
+.featured .side-content p{
     color: red;
     font-weight: bold;
     cursor: pointer;
+    margin-right: 50px;
 }
 
-.featured p:hover{
+.featured .side-content p:hover{
     font-size: 18px;
     cursor: pointer;
 }
