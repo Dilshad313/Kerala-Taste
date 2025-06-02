@@ -178,4 +178,54 @@ body{
     cursor: pointer;
 }
 
+#grid .price{
+    color: rgba(229, 18, 18, 0.95);
+    font-size: 20px;
+}
+
+#grid .price span{
+    font-size: 15px;
+    color: rgb(72, 72, 72);
+    margin-left: 20px;
+}
+
+#grid .report{
+    font-weight: bold;
+}
+
+#grid .report:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#grid .brand:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#grid button{
+    width: 200px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+#grid .save{
+    background-color: red;
+    display: flex;
+    position: absolute;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    width: 90px;
+    height: 25px;
+    justify-content: center;
+    margin-left: -13px;
+    margin-top: 15px;
+}
+
 
