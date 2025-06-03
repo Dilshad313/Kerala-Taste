@@ -267,3 +267,60 @@ body{
     font-weight: bold;
     width: 130px;
 }
+
+footer{
+    display: flex;
+    gap: 80px;
+}
+
+footer .taste{
+    width: 60%;
+    margin-left: 80px;
+}
+
+footer .taste div{
+    font-weight: bold;
+}
+
+footer .explore{
+    display: flex;
+    gap: 150px;
+}
+
+footer .explore .title{
+    font-weight: bold;
+}
+
+footer .con{
+    color: rgb(89, 88, 88);
+}
+
+footer .explore .list div:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.sub-foot{
+    margin-left: 80px;
+}
+
+.sub-foot .left div{
+    color: rgb(89, 88, 88);
+}
+
+.sub-foot .center{
+    margin-left: 250px;
+}
+
+.sub-foot .right{
+    margin-left: 250px;
+}
+
+.sub-foot .center img{
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.sub-foot .center img:hover{
+    cursor: pointer;
+}
